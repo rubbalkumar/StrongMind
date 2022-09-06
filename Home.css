@@ -1,0 +1,39 @@
+body{
+    background-color: #FDEEDC;
+    color: #E38B29;
+}
+
+h1, h5{
+    margin: auto;
+    width: fit-content;
+    font-size: 55px;
+    margin-top: 2%;
+}
+
+h5{
+    font-size: 40px;
+}
+
+
+.owner, .chef{
+    background-color: #FFD8A9;
+    width: 25%;
+    padding: 5%;
+    font-size: 35px;
+    border: #F1A661 solid;
+    display: inline-block;
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.chef{
+    float: right;
+    margin-right: 5%;
+}
+
+a{
+    color: inherit;
+}
+

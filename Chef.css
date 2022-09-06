@@ -1,0 +1,112 @@
+body{
+    background-color: #FDEEDC;
+    color: #E38B29;
+}
+
+h1, h5{
+    margin: auto;
+    width: fit-content;
+    font-size: 6vh;
+    margin-top: 2%;
+}
+
+h5{
+    font-size: 5vh;
+}
+
+.home{
+    width: fit-content;
+    float: left;
+    margin-left: 5%;
+}
+
+.home-img{
+    width: 10vh;
+    height: 10vh;
+}
+
+.pizzas{
+    
+    font-size: 2.5vh;
+    width: 70%;
+    margin: auto;
+    margin-top: .5%;
+    border: #F1A661 solid;
+}
+
+p{
+    display: inline-block;
+    margin-left: 5%;
+}
+
+
+.delete-button, .update-button, .new, .add, .cancel, .update-pizza, .yes{
+    margin: auto;
+    float: right;
+    margin-top: 1.5%;
+    margin-right: 5%;
+    padding: .5%;
+    background-color: #F1A661;
+    color: #FDEEDC;
+}
+
+.delete-button, .update-button{
+    float: none;
+    margin: auto;
+    margin-left: 2%;
+    position: relative;
+    display: inline-block;
+}
+
+.new{
+    float: none;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: fit-content;
+    display: block;
+    font-size: 3vh;
+}
+.add, .cancel, .update-pizza, .yes{
+    float: none;
+    margin: auto;
+    margin-top: 2%;
+    padding: 2%;
+    display: block;
+}
+
+.add-new{
+    padding: 10%;
+    margin: auto;
+    width: fit-content;
+}
+
+.add-new, .update, .delete {
+    display: none;
+    background-color:black;
+    color: #F1A661;
+    border: 1px solid #aaa;
+    border-radius: .5vmax;
+    position: fixed;
+    width: max-content;
+    height:max-content;
+    left: 38%;
+    top:40%;
+    padding: 1% 1% 1% 1%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.add-new{
+    top: 30%;
+    left: 42%;
+}
+
+.checkbox, .checkbox-update{
+    margin-left: 0%;
+    width:max-content;
+    padding: 0%;
+    position: relative;
+    text-align: left;
+}
+
