@@ -1,6 +1,8 @@
 const express = require('express');
 const mysql = require('mysql');
 const app = express();
+var os = require("os");
+
 const cors = require('cors')
 const bodyParser = require('body-parser')
 const parser= express.json();
@@ -234,6 +236,7 @@ app.patch('/updatepizza', function(req, res)
 });
 
 const port = process.env.port || 3001;
+var hostname = os.hostname();
 app.listen(port, function(){
-    console.log('Listenning from port ' + port)
+    console.log('Listenning from port ' + os + port)
   });
