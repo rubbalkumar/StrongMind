@@ -8,7 +8,7 @@
 	};
 
     function allToppings(){
-        var url = "http://localhost:3001/toppings";
+        var url = "https:/dark-teal-cygnet-tux.cyclic.app//toppings";
         fetch(url)
                 .then(checkStatus)
                 .then(function(responseText) {   
@@ -108,7 +108,7 @@
             headers: {'Content-Type': 'application/json'},
             body : data
         };
-        var url = "http://localhost:3001/deletetopping";
+        var url = "https:/dark-teal-cygnet-tux.cyclic.app//deletetopping";
 		fetch(url, fetchOptions)
 			.then(checkStatus)
 			.then(function(responseText) {
@@ -152,7 +152,7 @@
                 headers: {'Content-Type': 'application/json'},
                 body : data
             };
-            var url = "http://localhost:3001/updatetopping";
+            var url = "https:/dark-teal-cygnet-tux.cyclic.app//updatetopping";
 		fetch(url, fetchOptions)
 			.then(checkStatus)
 			.then(function(responseText) {
@@ -195,7 +195,7 @@
                 headers: {'Content-Type': 'application/json'},
                 body : data
             };
-            var url = "http://localhost:3001/topping";
+            var url = "https:/dark-teal-cygnet-tux.cyclic.app//topping";
 		fetch(url, fetchOptions)
 			.then(checkStatus)
 			.then(function(responseText) {
