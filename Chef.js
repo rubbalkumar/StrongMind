@@ -13,7 +13,7 @@
 
     // Show all pizzas
     function allPizzas(){
-        var url = "https:/dark-teal-cygnet-tux.cyclic.app//pizzas";
+        var url = "https:/dark-teal-cygnet-tux.cyclic.app/pizzas";
         fetch(url)
                 .then(checkStatus)
                 .then(function(responseText) {   
@@ -76,7 +76,7 @@
 
     // All toppings for New Pizza
     function allToppings(){
-        var url = "https:/dark-teal-cygnet-tux.cyclic.app//toppings";
+        var url = "https:/dark-teal-cygnet-tux.cyclic.app/toppings";
         fetch(url)
                 .then(checkStatus)
                 .then(function(responseText) {   
@@ -159,7 +159,7 @@
     }
 
     function selectedToppings(){
-        var url = "https:/dark-teal-cygnet-tux.cyclic.app//toppings";
+        var url = "https:/dark-teal-cygnet-tux.cyclic.app/toppings";
         fetch(url)
                 .then(checkStatus)
                 .then(function(responseText) {   
@@ -203,7 +203,7 @@
             headers: {'Content-Type': 'application/json'},
             body : data
         };
-        var url = "https:/dark-teal-cygnet-tux.cyclic.app//deletepizza";
+        var url = "https:/dark-teal-cygnet-tux.cyclic.app/deletepizza";
 		fetch(url, fetchOptions)
 			.then(checkStatus)
 			.then(function(responseText) {
@@ -254,7 +254,7 @@
                 headers: {'Content-Type': 'application/json'},
                 body : data
             };
-            var url = "https:/dark-teal-cygnet-tux.cyclic.app//updatepizza";
+            var url = "https:/dark-teal-cygnet-tux.cyclic.app/updatepizza";
 
 		fetch(url, fetchOptions)
 			.then(checkStatus)
@@ -311,7 +311,7 @@
                 headers: {'Content-Type': 'application/json'},
                 body : data
             };
-        var url = "https:/dark-teal-cygnet-tux.cyclic.app//pizza";
+        var url = "https:/dark-teal-cygnet-tux.cyclic.app/pizza";
 		fetch(url, fetchOptions)
 			.then(checkStatus)
 			.then(function(responseText) {
